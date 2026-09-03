@@ -4,7 +4,7 @@
     <title>Stand PS4 Exploit 5.05 - 6.72</title>
     <style>
       body {
-        background-color: #000000;
+    background: #000000 url("img/BG.jpg") center center / cover no-repeat fixed;
         color: #ffffff;
         font-family: "Segoe UI", Tahoma, sans-serif;
         text-align: center;
@@ -139,7 +139,7 @@
 
       try {
         if (!window.checkPlatformIsSupported()) {
-          window.log("Mohon maaf, hanya untuk PS4 5.05 - 6.72", "red");
+          window.log("Apologies, this is only for PS4 versions 5.05 – 6.72.", "blue");
         } else {
           if (config_target === 0x505) { // 5.05
             window.log("Starting 5.05 Exploit...");
